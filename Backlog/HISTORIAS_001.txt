@@ -1,0 +1,43 @@
+> INICIO PLANTILLA HISTORIAS <
+HISTORIA DE USUARIO
+-----
+id: codigo
+nombre: (comienza con verbo)
+prioridad de negocio: 
+iteracion asignada: 
+yo como: 
+quiero: 
+ya que: 
+
+CRITERIOS DE ACEPTACION
+-----
+dado que: 
+cuando: 
+entonces: 
+DETALLES
+-----
+reglas de negocio: 
+requerimientos no funcionales: 
+otros: 
+> FIN PLANTILLA HISTORIAS <
+
+HISTORIA DE USUARIO
+-----
+id: FRONT_001
+nombre: Ver la página principal "HOME" cuando se ingresa directamente con la URL o por medio de un vínculo
+prioridad de negocio: Alta
+iteracion asignada: 
+yo como: Cualquier persona o negocio
+quiero: Acceder a la página principal de IMPULCOMERCE 
+ya que: Me interesa entender quién es y qué ofrece IMPULCOMERCE, realizar accciones de búsqueda como posible comprador o publicar/modificar la información de mi negocio
+
+CRITERIOS DE ACEPTACION
+-----
+dado que: Puede ser la primera vez que visito la página, o soy un comprador que desea buscar un producto o servicio, o soy un negocio que quiere registrarse o ya se encuentra registrado
+cuando: Ingrese la URL en mi navegador
+entonces: Debo poder ver la página principal y desde ahí poder llegar a páginas otras páginas que me ofrecen toda la información y funcionalidades específicas a mi rol (comprador o negocio)
+DETALLES
+-----
+reglas de negocio: Los botones superiores dirigen a URLs con la información "Conócenos", "Contáctanos", "Regístrate" - formulario, "Ingresa" - carga y modificación de información y archivos del negocio. La barra de búsqueda debe llevar a la página de resultados donde se presentarán registros relacionados con las palabras clave y opciones de filtrado.
+requerimientos no funcionales: La página debe ser "responsive"
+otros: N.A.
