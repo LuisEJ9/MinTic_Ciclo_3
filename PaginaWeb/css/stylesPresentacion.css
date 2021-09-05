@@ -1,3 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}  
+
+body {
+    background-color: rgb(44, 1, 59);
+}
+
+header {
+    background: rgb(44, 1, 59,9);
+    box-shadow: -3px 3px 3px rgba(250, 248, 248, 0.2);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li img {
+    display: block;
+    max-width: 40%;
+}
+
+nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: rgb(54, 1, 73);
+}
+
 .title{
     color: whitesmoke;
     text-align: center;
@@ -9,13 +64,13 @@
 
 /* reloj */
 .clockdate{
+    padding-top: 10px;
     text-align: right;
 } 
 
 .clockdate-wrapper {
     background-color: rgb(44, 1, 59);
     padding:5px;
-    /* max-width:250px; */
     width:100%;
     text-align:right;
     border-radius:5px;
@@ -35,7 +90,7 @@
 #clock span {
     color:#888;
     text-shadow:0px 0px 1px #333;
-    font-size:15px;
+    font-size:10px;
     position:relative;
     top:-17px;
     left:-8px;
@@ -96,10 +151,11 @@
 }
 
 .button{
-    border-style:groove;
+    border-style:hidden;
     border: 20px;
     width: 100%;
-    height: auto;  
+    height: 450%;
+    font-size: medium;  
 }
 body{
     background-color: rgb(44, 1, 59); /* Color de fondo de la pagina*/
