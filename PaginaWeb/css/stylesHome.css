@@ -35,12 +35,12 @@ nav ul {
 nav ul li {
     float: left;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 nav ul li img {
     display: block;
-    max-width: 40%;
+    max-width: 30%;
 }
 
 nav ul li a {
@@ -61,7 +61,7 @@ nav ul li:hover {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(199, 209, 209);
     text-shadow: -3px 3px 3px rgba(250, 248, 248, 0.2); /*Efecto de sombra en texto */
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 /* reloj */
