@@ -32,7 +32,7 @@ nombre: Ver la página principal "HOME" cuando se ingresa directamente con la UR
 prioridad de negocio: Alta
 iteracion asignada: 
 puntos: S, M, L
-yo como: Cualquier persona o negocio
+yo como: Cualquier negocio o comerciante
 quiero: Acceder a la página principal de IMPULCOMERCE 
 ya que: Me interesa entender quién es y qué ofrece IMPULCOMERCE, realizar accciones de búsqueda como posible comprador o publicar/modificar la información de mi negocio
 
@@ -40,7 +40,7 @@ CRITERIOS DE ACEPTACION
 -----
 dado que: Puede ser la primera vez que visito la página, o soy un comprador que desea buscar un producto o servicio, o soy un negocio que quiere registrarse o ya se encuentra registrado
 cuando: Ingrese la URL en mi navegador
-entonces: Debo poder ver la página principal y desde ahí poder llegar a páginas otras páginas que me ofrecen toda la información y funcionalidades específicas a mi rol (comprador o negocio)
+entonces: Debo poder ver la página principal y desde ahí poder llegar a otras páginas que me ofrecen toda la información y funcionalidades específicas a mi rol (comprador o negocio)
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
@@ -50,9 +50,36 @@ reglas de negocio: Los botones superiores dirigen a URLs con la información "Co
 requerimientos no funcionales: La página debe ser "responsive"
 otros: N.A.
 
+
 HISTORIA DE USUARIO
 -----
 id: FRONT_001_FT01
+nombre: Ver la página principal "HOME" cuando se ingresa directamente con la URL o por medio de un vínculo
+prioridad de negocio: Alta
+iteracion asignada: 
+puntos: S, M, L
+yo como: Cualquier persona
+quiero: Acceder a la página principal de IMPULCOMERCE 
+ya que: Me interesa entender quién es y qué ofrece IMPULCOMERCE, realizar accciones de búsqueda como posible comprador encontrando la informacion requerida 
+
+CRITERIOS DE ACEPTACION
+-----
+dado que: Puede ser la primera vez que visito la página y deseo buscar un producto o servicio
+cuando: Ingrese la URL en mi navegador
+entonces: Debo poder ver la página principal y desde ahí poder llegar a otras páginas que me ofrecen toda la información, busqueda de negocios o servicios y lo mas desstacadoo consultado
+CRITERIOS DE COMPLETITUD
+-----
+resultado de la prueba: 
+
+DETALLES
+-----
+reglas de negocio: Los botones superiores dirigen a URLs con la información "Conócenos", "Contáctanos", "Regístrate" - formulario, "Ingresa" - carga y modificación de información y archivos del negocio. La barra de búsqueda debe llevar a la página de resultados donde se presentarán registros relacionados con las palabras clave y opciones de filtrado.
+requerimientos no funcionales: La página debe ser "responsive"
+otros: N.A.
+
+HISTORIA DE USUARIO
+-----
+id: FRONT_001_FT02
 nombre: Diseño de la página principal "HOME"
 prioridad de negocio: Alta
 iteracion asignada: 
@@ -66,9 +93,11 @@ CRITERIOS DE ACEPTACION
 dado que: Este es el diseño de la página principal del cual se desprenden todas las demás páginas que permiten acceder a las demás funcionalidades
 cuando: Cargue la página
 entonces: Debo poder ver la página principal con todos los elementos a los que pueden ser asignados vínculos a otras páginas que contienen las funcionalidades 
+
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
+
 DETALLES
 -----
 reglas de negocio: Se necesitan (1) los botones superiores "Conócenos", "Contáctanos", "Regístrate" e "Ingresa" en la parte superior, (2) el logo de IMPULCOMERCE en el centro, (3) la barra de búsqueda de productos y servicios debajo del logo, y (4) el texto con descripción corta e información legal.
@@ -77,7 +106,7 @@ otros: N.A.
 
 HISTORIA DE USUARIO
 -----
-id: FRONT_001_FT02
+id: FRONT_001_FT03
 nombre: Diseño de la página "CONÓCENOS"
 prioridad de negocio: Baja
 iteracion asignada: 
@@ -91,9 +120,11 @@ CRITERIOS DE ACEPTACION
 dado que: Este es el diseño de la página "CONÓCENOS" que tiene la funcionalidad de presentar información relevante sobre la empresa
 cuando: Cargue la página
 entonces: Debo poder ver la página "CONÓCENOS" con la información de la empresa y un elemento al que puede ser asignado el vínculo que lleve nuevamente a la página principal 
+
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
+
 DETALLES
 -----
 reglas de negocio: Se necesitan (1) el título principal, (2) los títulos de las secciones de forma centrada, (3) la información que corresponde a la sección al frente de una imagen, es decir, cada sección es 50/50 texto/imagen, (4) el botón en la parte superior que lleve nuevamente a la página principal, (5) el logo de IMPULCOMERCE en el centro al final, y (6) el texto con descripción corta e información legal.
@@ -102,7 +133,7 @@ otros: N.A.
 
 HISTORIA DE USUARIO
 -----
-id: FRONT_001_FT03
+id: FRONT_001_FT04
 nombre: Diseño de la página "CONTÁCTANOS"
 prioridad de negocio: Baja
 iteracion asignada: 
@@ -121,9 +152,11 @@ entonces: Debo poder ver la página "CONTÁCTANOS" con la información de contac
 dado que: Este es el diseño de la página "CONTÁCTANOS" que tiene la funcionalidad del formulario de captura de información del usuario
 cuando: Cargue la página
 entonces: Debo poder ver un formulario de captura de información y al usar el botón de envío/guardado recibir una confirmación que me indique que el proceso fue exitoso
+
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
+
 DETALLES
 -----
 reglas de negocio: Se necesitan (1) el título principal, (2) la sección que contiene la información de contacto de la empresa, (3) el formulario de captura de información con el botón de envío/guardado que esté conectado con la tabla "Contactenos" de la base de datos, (4) el botón en la parte superior que lleve nuevamente a la página principal, (5) el logo de IMPULCOMERCE en el centro al final, y (6) el texto con descripción corta e información legal.
@@ -132,9 +165,9 @@ otros: tener en cuenta que el criterio de aceptación y de completitud de esta h
 
 HISTORIA DE USUARIO
 -----
-id: FRONT_001_FT04
+id: FRONT_001_FT05
 nombre: Diseño de la página "REGÍSTRATE"
-prioridad de negocio: Baja
+prioridad de negocio: Alta
 iteracion asignada: 
 puntos: S, M, L
 yo como: Cualquier negocio
@@ -151,9 +184,11 @@ entonces: Debo poder ver la página "REGÍSTRATE" con la información del "Regla
 dado que: Este es el diseño de la página "REGÍSTRATE" que tiene la funcionalidad del formulario de captura de información del negocio
 cuando: Cargue la página
 entonces: Debo poder ver un formulario de captura de información y al usar el botón de envío/guardado recibir una confirmación que me indique que el proceso fue exitoso
+
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
+
 DETALLES
 -----
 reglas de negocio: Se necesitan (1) el título principal, (2) la sección que contiene la información del Reglamento, (3) el vínculo que permita descargar el reglamento, (4) el formulario de captura de información con el botón de envío/guardado que esté conectado con la tabla "Negocios" de la base de datos, (5) el botón en la parte superior que lleve nuevamente a la página principal, (6) el logo de IMPULCOMERCE en el centro al final, y (7) el texto con descripción corta e información legal.
@@ -162,13 +197,13 @@ otros: tener en cuenta que el criterio de aceptación y de completitud de esta h
 
 HISTORIA DE USUARIO
 -----
-id: FRONT_001_FT05
+id: FRONT_001_FT06
 nombre: Diseño de la página "INGRESA"
 prioridad de negocio: Baja
 iteracion asignada: 
 puntos: S, M, L
 yo como: Cualquier negocio
-quiero: Ver la página de IMPULCOMERCE que contiene los elementos que me permiten como negocio autenticarme en INTERCOMERCE
+quiero: Ver la página de IMPULCOMERCE que contiene los elementos que me permiten como negocio autenticarme en IMPULCOMERCE
 ya que: Quiero administrar la información relevante de negocio que está guardada en IMPULCOMERCE
 
 CRITERIOS DE ACEPTACION
@@ -185,11 +220,39 @@ entonces: Debo poder ver un vínculo que me permita ir a la página de recuperar
 dado que: Este es el diseño de la página "INGRESA" que tiene la funcionalidad llevar al usuario correctamente autenticado a la página de administración de su información
 cuando: Al presionar el botón de ingreso/autenticación
 entonces: Debo poder ver una confirmación que me indique que el proceso fue exitoso y ser dirigido a la página de administración de mi información que permite ver y actualizar la información de mi empresa, los productos y servicios, y demás información relevante
+
 CRITERIOS DE COMPLETITUD
 -----
 resultado de la prueba: 
+
 DETALLES
 -----
 reglas de negocio: Se necesitan (1) el título principal, (2) la sección que contiene los campos de usuario y contraseña, (3) el botón de ingreso/autenticación, (4) la conexión con la tabla "Negocios" de la base de datos - mensaje emergente de autenticación exitosa o fallida , (5) el vínculo a la página de recuperar contraseña, (6) el botón en la parte superior que lleve nuevamente a la página principal, (7) el logo de IMPULCOMERCE en el centro al final, y (8) el texto con descripción corta e información legal.
 requerimientos no funcionales: La página debe ser "responsive", el formulario debe estar conectado a la tabla "Negocios" de la base de datos que está en el backend de IMPULCOMERCE
+otros: tener en cuenta que el criterio de aceptación y de completitud de esta historia del FRONT, están relacionados con otra(s) historias del BACK
+
+HISTORIA DE USUARIO
+-----
+id: FRONT_001_FT07
+nombre: Resultados de busqueda 
+prioridad de negocio: Baja
+iteracion asignada: 
+puntos: S, M, L
+yo como: Cualquier Persona 
+quiero: Encontrar por categorias los negocios o servicios ofrecidos 
+ya que: Deseo tomar la menor cantidad de tiempo realizando una busqueda
+
+CRITERIOS DE ACEPTACION
+-----
+dado que: Se quiere consultar los negocios o servicios registrados  
+cuando: Se use la barra de busqueda en la pagina principal
+entonces: Esta debe de arrojar resultados relevantes a las palabras claves y tambien sugeridos 
+
+CRITERIOS DE COMPLETITUD
+-----
+
+DETALLES
+-----
+reglas de negocio: Se requiere (1) la barra de busqueda, (2) pagina con resultados relevantes a palabras claves, (3) resultados sugeridos 
+requerimientos no funcionales: La página debe ser "responsive", la pagina de resultados debe de estar conectada a la tabla "Negocios" de la base de datos que esta en el backend de IMPULCOMERCE.
 otros: tener en cuenta que el criterio de aceptación y de completitud de esta historia del FRONT, están relacionados con otra(s) historias del BACK
