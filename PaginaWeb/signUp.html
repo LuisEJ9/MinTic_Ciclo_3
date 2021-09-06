@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <title> Impulcomerce </title>
+    <title>Registrarse IMPULCOMERCE</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesHome.css">
+    <link rel="stylesheet" href="css/stylesSignUp.css">
     <script src="Script/reloj.js"></script>
 </head>
 <body onload="startTime()">
@@ -31,13 +31,28 @@
             </div>
         </p>    
     </div>
-    <!-- Barra de Busqueda -->
-    <section class="webdesigntuts-workshop">
-        <form action="" method="">		    
-            <input type="search" placeholder="Search...">		    	
-            <button>Search</button>
-        </form>
-    </section>
+    <!-- SignUp -->
+    <div id="contenedor">
+        <div id="login">
+            <div class="titulo">
+                Registrate
+            </div>
+            <form id="loginform">
+                <input type="text" name="usuario" placeholder="Email" required>
+                
+                <input type="text" name="Nombre" placeholder="Nombre"  required>
+
+                <input type="text" name="Telefono" placeholder="Telefono"  required>
+
+                <input type="password" name="password" placeholder="Password" required>
+                
+                <button type="submit" title="Boton de registro" name="Registar">Registrar</button>
+            </form>
+            <div class="pie-form">
+                <a href="#">Volver</a>
+            </div>
+        </div>
+    </div>
     <!-- Pie de pagina -->
     <footer id="footer">
         <address>
@@ -45,5 +60,6 @@
             <p>Proyecto de pagina web para ciclo 3 de MisionTic UTP</p>
         </address>
     </footer>
+    
 </body>
 </html>
