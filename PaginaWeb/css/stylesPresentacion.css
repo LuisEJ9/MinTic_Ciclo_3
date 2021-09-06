@@ -158,7 +158,14 @@ nav ul li:hover {
     height: 450%;
     font-size: medium;  
 }
-body{
-    background-color: rgb(44, 1, 59); /* Color de fondo de la pagina*/
-}
 
+/* Pie de pagina */
+#footer {
+    font-family: Raleway,sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    text-shadow: -1px 3px 3px rgba(250, 248, 248, 0.15); /*Efecto de sombra en texto */
+    line-height: 2.6em;
+    background: #200922;
+}
