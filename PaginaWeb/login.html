@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <title> Impulcomerce </title>
+    <title>Login Impulcomerce</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesHome.css">
+    <link rel="stylesheet" href="css/stylesLogin.css">
     <script src="Script/reloj.js"></script>
 </head>
 <body onload="startTime()">
@@ -31,13 +31,26 @@
             </div>
         </p>    
     </div>
-    <!-- Barra de Busqueda -->
-    <section class="webdesigntuts-workshop">
-        <form action="" method="">		    
-            <input type="search" placeholder="Search...">		    	
-            <button>Search</button>
-        </form>
-    </section>
+    <!-- Login -->
+    <div id="contenedor">
+        <div id="login">
+            <div class="titulo">
+                Bienvenido
+            </div>
+            <form id="loginform">
+                <input type="text" name="usuario" placeholder="Usuario" required>
+                
+                <input type="password" placeholder="Contraseña" name="password" required>
+                
+                <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+            </form>
+            <div class="pie-form">
+                <a href="#">¿Perdiste tu contraseña?</a>
+                <a href="#">¿No tienes Cuenta? Registrate</a>
+                <a href="#">Volver</a>
+            </div>
+        </div>
+    </div>
     <!-- Pie de pagina -->
     <footer id="footer">
         <address>
